@@ -383,16 +383,47 @@ blockquote::after{
     background: #fff;
     padding: 10px;
     margin: 15px;
+    
+}
+.emo{
+    width: 250px;
+    height: 250px;
+    box-shadow: deeppink;
+}
+.coll{
+    color: blue;
 }
 .contact-info .fa{
     margin: 10px;
     color: #007bff;
     font-weight: bold;
 }
+.t{
+    
+    border: 2px solid deeppink;
+}
+.img-deck:hover{
+    box-shadow: 2px 1px   honeydew;
+}
+.emojis-images{
+    width: 250px;
+    height: 250px;
+    border-radius: 100px;
+    box-shadow: 2px 3px gold;
+}
+
 .footer{
     background: #333;
     color: #fff;
     padding: 12px;
+    height: 300px;
+}
+.emojis-images{
+    width: 250px;;
+    height: 250px;
+}
+.my-emoji{
+    background-color: darkslategray;
 }
 
 @media (max-width: 360px){
