@@ -369,6 +369,9 @@ blockquote::after{
     padding-bottom: 40px;
     color: #777;
 }
+.cards{
+    width: auto;
+}
 .contact-form{
     padding: 15px;
 }
@@ -390,6 +393,12 @@ blockquote::after{
     background: #333;
     color: #fff;
     padding: 12px;
+}
+
+@media (max-width: 360px){
+    .card-mobile{
+        display: block;
+    }
 }
 
 
